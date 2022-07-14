@@ -21,10 +21,13 @@ namespace cs_calisma
            }
 
           Console.WriteLine("Çift elemanlar: ");
-          
+
            for(int i=0; i<dizi.Length;i++){
+
             if(dizi[i]%2==0){
+
                 Console.WriteLine(dizi[i]);
+                
             }
 
            }
